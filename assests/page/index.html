@@ -15,16 +15,16 @@
                
                 <!--Question 1-->
                 <label for="Q1"><strong>1. To output results in Js, which command is used?</strong></label><br>
-                <input type="radio" name="Q1" value="0" required>console.log() <br>
-                <input type="radio" name="Q1" value="10">console.math() <br>
-                <input type="radio" name="Q1" value="10">console.output <br>
-                <input type="radio" name="Q1" value="10">return<br>
+                <input type="radio" name="Q1" value="10" required>console.log() <br>
+                <input type="radio" name="Q1" value="0">console.math() <br>
+                <input type="radio" name="Q1" value="0">console.output <br>
+                <input type="radio" name="Q1" value="0">return<br>
                 <!--Question 2-->
                 <label for="Q2"> <strong>2. Which method is used to execute a pop up</strong></label><br>
                 <input type="radio" name="Q2" value="0" required>console.log() <br>
-                <input type="radio" name="Q2" value="10">console.popup() <br>
+                <input type="radio" name="Q2" value="0">console.popup() <br>
                 <input type="radio" name="Q2" value="10">alert() <br>
-                <input type="radio" name="Q2" value="10">console.math() <br>
+                <input type="radio" name="Q2" value="0">console.math() <br>
                 <!--Question 3-->
                 <label for="Q3"> <strong>3. Define variabe in JS</strong></label><br>
                 <input type="radio" name="Q3" value="10" required>container that holds and store value<br>
@@ -40,17 +40,67 @@
                 <!--Question 5-->
                 <label for="Q5"><strong>5. Name one rule of naming variable in JS</strong></label><br>
                 <input type="radio" name="Q5" value="0" required>Must include space<br>
-                <input type="radio" name="Q5" value="10">Must start with uppercase <br>
+                <input type="radio" name="Q5" value="0">Must start with uppercase <br>
                 <input type="radio" name="Q5" value="10">Must start with lowercase <br>
-                <input type="radio" name="Q5" value="10">Must  be written in camelcasing<br>
+                <input type="radio" name="Q5" value="0">Must  be written in camelcasing<br>
                 <button type="submit" class="btn btn-info" name="button">Submit</button>
                 
               </form>
         </div>
     
+    </section>
+    <section id="answerform">
+        <form id="answer">
+            <label for="Q1"><strong>1. To output results in Js, which command is used?</strong></label><br>
+                <input type="radio" name="Q1" value="0" disabled>console.math() <br>
+                <input type="radio" name="Q1" value="0" disabled>console.output() <br>
+                <input type="radio" name="Q1" value="0" disabled>return <br>
+                <p id="correct">
+                  <input type="radio" name="Q1" value="10" checked>console.log()<br>
+                </p>
+            
+            <label for="Q2"> <strong>2. Which method is used to execute a pop up</strong></label><br>
+                <input type="radio" name="Q2" value="0" disabled>console.log() <br>
+                <input type="radio" name="Q2" value="0" disabled>console.popup() <br>
+                
+                <input type="radio" name="Q2" value="0" disabled>console.math() <br>
+                <p id="correct">
+                    <input type="radio" name="Q2" value="10" checked>alert() <br>
+                </p>
+            <label for="Q3"> <strong>3. Define variabe in JS</strong></label><br>
+                
+                <input type="radio" name="Q3" value="0" disabled>An argument paased in a function <br>
+                <input type="radio" name="Q3" value="0"disabled>A data type <br>
+                <input type="radio" name="Q3" value="0" disabled>a parameter used to call the function<br>
+                <p id="correct">
+                    <input type="radio" name="Q3" value="10" checked>container that holds and store value<br>
+                </p>
+
+            <label for="Q4"> <strong>4. When using math.floor to round 3.8, the result will be?</strong></label><br>
+                
+                <input type="radio" name="Q4" value="0" disabled>4<br>
+                <input type="radio" name="Q4" value="0" disabled>3.8<br>
+                <input type="radio" name="Q4" value="0" disabled>2<br>
+                <p id="correct">
+                    <input type="radio" name="Q4" value="10" checked>3 <br>
+                </p>
+
+            <label for="Q5"><strong>5. Name one rule of naming variable in JS</strong></label><br>
+                <input type="radio" name="Q5" value="0" disabled>Must include space<br>
+                <input type="radio" name="Q5" value="0" disabled>Must start with uppercase <br>
+                
+                <input type="radio" name="Q5" value="0" disabled>Must  be written in camelcasing<br>
+                <p id="correct">
+                    <input type="radio" name="Q5" value="10" checked>Must start with lowercase <br>
+                </p>
+                <button type="submit" class="btn btn-info" name="button">Submit</button>
+                
+            
 
 
 
+
+        </form>
 
     </section>
 </body>
