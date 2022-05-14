@@ -1,0 +1,17 @@
+#signIn{
+    padding-left: 20px;
+    padding: 10px;
+    
+    
+    
+}
+#name,#email, #submit{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+#signup{
+    background-color:gold;
+    margin:auto;
+    width: 70%;
+}

@@ -7,11 +7,16 @@
     <title>Test</title>
 </head>
 <body>
-    <section id="myquestions">
+    <section id="startTest">
+        <h1> Click start to begin the test</h1>
+        <button type="button" id="youstart" name="button"> <a href="./assests/page/index.html" >Start Test </a></button>
+    </section>
+
+    <section>
         <h2 style="text-align:center">Javascript Test Quiz</h2>
         <p style="text-align:center">Answer all questions</p>
-        <div>
-            <form id="quiz">
+        <div id="myquestions">
+            <form id="questions">
                
                 <!--Question 1-->
                 <label for="Q1"><strong>1. To output results in Js, which command is used?</strong></label><br>
@@ -46,6 +51,10 @@
                 <button type="submit" class="btn btn-info" name="button">Submit</button>
                 
               </form>
+        </div>
+        <div id="score">
+            <button type="button" id="getscores" class="" name="button">Get Score</button>
+
         </div>
     
     </section>
@@ -98,6 +107,7 @@
                 
         
         </form>
+        
 
     </section>
     <script type= "text/javascript" src="assests/JS/index.js"></script>
