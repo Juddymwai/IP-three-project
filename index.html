@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Board</title>
     <link rel="stylesheet" href="./assests/style.css">
-    <script src="./assests/JS/index.js"></script>
-    
-
-    
+  
 </head>
 <body>
     <h1 style="text-align:center">Quiz Board </h1>
@@ -17,22 +14,22 @@
     <section id="signup">
         <div >
             <h2 style="margin-left: 10px;">Login Page</h2>
-            <form id="signIn">
+            <form id="signIn" onsubmit="confirmInput()" action="./assests/page/index.html">
                 
-                <input type="text" id="name" name="" value="" placeholder="Name"><br>
+                <input type="text" id="name" name="" value="" placeholder="Name" required><br>
                 
-                <input type="Email" id="email" name="" value="" placeholder="Email"><br>
+                <input type="Email" id="email" name="" value="" placeholder="Email" required><br>
                
                 
-                <input type="Submit" id="submit" name="" value="Submit &#8594"><br>
+                <input type="Submit" id="submit" name="" value="Submit &#8594" onclick="quiz()"><br>
             </form>
             
         </div>
     </section>
-    <section id="startTest">
+    <!-- <section id="startTest">
         <h1> Click start to begin the test</h1>
         <button type="button" id="youstart" name="button"> <a href="./assests/page/index.html" >Start Test </a></button>
-    </section>
+    </section> -->
     <script type= "text/javascript" src="assests/JS/index.js"></script>
     <script src="https:code.jquery.com/jquery-3.3.1.js"></script>
     
