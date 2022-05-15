@@ -1,3 +1,6 @@
+
+
+
 var score=0;
 function getScore(){
     
@@ -41,7 +44,7 @@ function getScore(){
     else {
         score+=0;
     }
-    document.write('You scored '+score +'%')
+    document.write('Your score is '+score +'% ')
         
     if (score>=80){
         document.write(' Excellent, you have passed the test')
@@ -56,4 +59,5 @@ function getScore(){
     
 
 }
+
 
