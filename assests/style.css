@@ -1,3 +1,8 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
 #signIn{
     padding-left: 20px;
     padding: 10px;
@@ -15,9 +20,7 @@
     margin:auto;
     width: 70%;
 }
-body{
-    
-}
+
 
 
 /* css page two */

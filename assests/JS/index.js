@@ -41,11 +41,19 @@ function getScore(){
     else {
         score+=0;
     }
-    document.write('You scored '+score'%')
+    document.write('You scored '+score +'%')
+        
+    if (score>=80){
+        document.write(' Excellent, you have passed the test')
+    }
+    else if (score<50){
+        document.write(' Failed,')
+    }
+    else{
+        document.write(' Fairly Passed')
+    }
 
     
 
 }
-function grade(){
-   if (score<=80) 
-}
+
