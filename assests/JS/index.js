@@ -1,5 +1,6 @@
+var score=0;
 function getScore(){
-    var score=0;
+    
     if (document.getElementById('right1').checked){
         score+=20;
        
@@ -40,9 +41,11 @@ function getScore(){
     else {
         score+=0;
     }
+    document.write('You scored '+score'%')
 
+    
 
-
-
-
+}
+function grade(){
+   if (score<=80) 
 }
