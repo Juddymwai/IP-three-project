@@ -32,6 +32,15 @@ function getScore(){
     else {
         score+=0;
     }
+    if (document.getElementById('right5').checked){
+        score+=20;
+       
+
+    }
+    else {
+        score+=0;
+    }
+
 
 
 
