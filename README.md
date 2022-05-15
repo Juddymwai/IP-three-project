@@ -34,7 +34,7 @@ As a user of the application,you will be able to :
  ****
  
 ### Live Link
-- Click this link to view the live application https://juddymwai.github.io/moringaIPTWO/
+- Click this link to view the live application https://juddymwai.github.io/IP-three-project/
 ### Technology  Used
 * HTML - has been used to form the structure of the pages.
 * CSS - has been used to style the User Interface.
