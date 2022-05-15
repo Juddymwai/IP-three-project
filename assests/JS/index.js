@@ -8,7 +8,7 @@ function getScore(){
     else {
         score+=0;
     }
-    if (document.getElementById('right1').checked){
+    if (document.getElementById('right2').checked){
         score+=20;
        
 
@@ -16,7 +16,7 @@ function getScore(){
     else {
         score+=0;
     }
-    if (document.getElementById('right1').checked){
+    if (document.getElementById('right3').checked){
         score+=20;
        
 
