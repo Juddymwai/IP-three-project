@@ -47,7 +47,7 @@ function getScore(){
         document.write(' Excellent, you have passed the test')
     }
     else if (score<50){
-        document.write(' Failed,')
+        document.write(' Failed')
     }
     else{
         document.write(' Fairly Passed')
