@@ -24,6 +24,15 @@ function getScore(){
     else {
         score+=0;
     }
+    if (document.getElementById('right4').checked){
+        score+=20;
+       
+
+    }
+    else {
+        score+=0;
+    }
+
 
 
 
